@@ -4,12 +4,12 @@ Icíar Martínez Comba (imcomba@correo.ugr.es)
 
 In order to execute the following files NEST Simulator installation is needed: http://www.nest-simulator.org/installation/
 
-'MyModuleSC': A file containing the neural modules needed for the stimulus of the neural system.
+'MyModuleSC': A directory containing the neural modules needed for the stimulus of the neural system.
 	'sc_generator':Contains the parameters needed for the generator device, as it needs to produce a certain input current.
 IMPORTANT: It needs to be defined as the neuron type of a population when used in NEST.
 	'scmodule':New neural module created to implement the generator device. IMPORTANT: It needs to be installed at the beginning of each NEST simulation with the command: nest.Install('scmodule')
 
-'Scripts': A file containing different simulations created in order to obtain certain results to study the Superior Colliculus behaviour under some specific circumstances
+'Scripts': A directory containing different simulations created in order to obtain certain results to study the Superior Colliculus behaviour under some specific circumstances
 IMPORTANT: The simulation is developed through Jupyter notebook.
 For a better understanding of the followed procedure there is an order in the creation of each simulation:
 	1)'input_current'
